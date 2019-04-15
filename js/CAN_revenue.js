@@ -1,11 +1,11 @@
-Highcharts.chart('BRA', {
+Highcharts.chart('CAN_rev', {
 
     chart: {
       type: 'item'
     },
   
     title: {
-      text: 'Brazil'
+      text: 'Canada'
     },
   
     subtitle: {
@@ -20,11 +20,11 @@ Highcharts.chart('BRA', {
       name: '',
       keys: ['name', 'y', 'color', 'label'],
       data: [
-        ['Tax revenue', 13, '#EB001F', 'Tax revenue'],
-        ['Taxes on exports', 0, '#BE3075', 'Taxes on exports'],
-        ['Taxes on goods and services', 6, '#64A12D', 'Taxes on goods and services'],
-        ['Taxes on income, profits and capital gains', 7, '#FFED00', 'Taxes on income, profits and capital gains'],
-        ['Taxes on international trade', 1, '#009EE0', 'Taxes on international trade'],
+        ['Tax revenue', 13, '#f5b7b1', 'Tax revenue'],
+        ['Taxes on exports', 0, '#d7bde2', 'Taxes on exports'],
+        ['Taxes on goods and services', 0, '#a9dfbf', 'Taxes on goods and services'],
+        ['Taxes on income, profits and capital gains', 10, '#f9e79f', 'Taxes on income, profits and capital gains'],
+        ['Taxes on international trade', 1, '#aed6f1', 'Taxes on international trade'],
       ],
       dataLabels: {
         enabled: true,
