@@ -5,7 +5,7 @@ Highcharts.chart('BRA_rev', {
     },
   
     title: {
-      text: 'Brazil'
+      text: 'Brazil\'s revenue'
     },
   
     subtitle: {

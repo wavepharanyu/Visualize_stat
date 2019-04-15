@@ -5,7 +5,7 @@ Highcharts.chart('CAN_rev', {
     },
   
     title: {
-      text: 'Canada'
+      text: 'Canada\'s revenue'
     },
   
     subtitle: {

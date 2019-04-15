@@ -5,7 +5,7 @@ Highcharts.chart('ARG_rev', {
     },
   
     title: {
-      text: 'Argentina'
+      text: 'Argentina\'s revenue'
     },
   
     subtitle: {

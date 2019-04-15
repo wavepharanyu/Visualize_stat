@@ -5,7 +5,7 @@ Highcharts.chart('JAM_rev', {
     },
   
     title: {
-      text: 'Jamaica'
+      text: 'Jamaica\'s revenue'
     },
   
     subtitle: {

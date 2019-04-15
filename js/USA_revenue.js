@@ -5,7 +5,7 @@ Highcharts.chart('USA_rev', {
     },
   
     title: {
-      text: 'United States'
+      text: 'United States\'s revenue'
     },
   
     subtitle: {
