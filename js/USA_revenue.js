@@ -20,11 +20,11 @@ Highcharts.chart('USA_rev', {
       name: '',
       keys: ['name', 'y', 'color', 'label'],
       data: [
-        ['Tax revenue', 11, '#f5b7b1', 'Tax revenue'],
-        ['Taxes on exports', 0, '#d7bde2', 'Taxes on exports'],
-        ['Taxes on goods and services', 1, '#a9dfbf', 'Taxes on goods and services'],
-        ['Taxes on income, profits and capital gains', 10, '#f9e79f', 'Taxes on income, profits and capital gains'],
-        ['Taxes on international trade', 1, '#aed6f1', 'Taxes on international trade'],
+        ['Tax revenue', 12, '#c39bd3', 'Tax revenue'],
+        ['Social contributions', 7, '#f1948a', 'Social contributions'],
+        ['Grants and other revenue', 2, '#52be80', ' Grants and other revenue'],
+        ['Other taxes', 1, '#76d7c4', 'Other taxes'],
+        ['Customs and other import duties', 1, '#d1f2eb', 'Customs and other import duties'],
       ],
       dataLabels: {
         enabled: true,

@@ -1,40 +1,40 @@
 Highcharts.chart('CAN_rev', {
 
-    chart: {
-      type: 'item'
+  chart: {
+    type: 'item'
+  },
+
+  title: {
+    text: 'Canada\'s revenue'
+  },
+
+  subtitle: {
+    text: ''
+  },
+
+  legend: {
+    labelFormat: '{name} <span style="opacity: 0.6">{y} (% of GDP)</span>'
+  },
+
+  series: [{
+    name: '',
+    keys: ['name', 'y', 'color', 'label'],
+    data: [
+      ['Tax revenue', 13, '#c39bd3', 'Tax revenue'],
+      ['Social contributions', 5, '#f1948a', 'Social contributions'],
+      ['Grants and other revenue', 2, '#52be80', ' Grants and other revenue'],
+      ['Other taxes', 0, '#76d7c4', 'Other taxes'],
+      ['Customs and other import duties', 0, '#d1f2eb', 'Customs and other import duties'],
+    ],
+    dataLabels: { 
+      enabled: true,
+      format: '{point.label}'
     },
-  
-    title: {
-      text: 'Canada\'s revenue'
-    },
-  
-    subtitle: {
-      text: ''
-    },
-  
-    legend: {
-      labelFormat: '{name} <span style="opacity: 0.6">{y} (% of GDP)</span>'
-    },
-  
-    series: [{
-      name: '',
-      keys: ['name', 'y', 'color', 'label'],
-      data: [
-        ['Tax revenue', 13, '#f5b7b1', 'Tax revenue'],
-        ['Taxes on exports', 0, '#d7bde2', 'Taxes on exports'],
-        ['Taxes on goods and services', 0, '#a9dfbf', 'Taxes on goods and services'],
-        ['Taxes on income, profits and capital gains', 10, '#f9e79f', 'Taxes on income, profits and capital gains'],
-        ['Taxes on international trade', 1, '#aed6f1', 'Taxes on international trade'],
-      ],
-      dataLabels: {
-        enabled: true,
-        format: '{point.label}'
-      },
-  
-      // Circular options
-      center: ['50%', '88%'],
-      size: '170%',
-      startAngle: -100,
-      endAngle: 100
-    }]
-  });
+
+    // Circular options
+    center: ['50%', '88%'],
+    size: '170%',
+    startAngle: -100,
+    endAngle: 100
+  }]
+});
