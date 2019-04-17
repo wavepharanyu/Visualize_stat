@@ -3,13 +3,13 @@ $( '#all_rev' ).highcharts({
     tooltip: {
     headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
     pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
-      '<td style="padding:0"><b>{point.y:.1f} (% of GDP)</b></td></tr>',
+      '<td style="padding:0"><b>{point.y:.1f} (Billions of US$)</b></td></tr>',
     footerFormat: '</table>',
     shared: true,
     useHTML: true
   },
   title: {
-    text: 'Revenue (% of GDP)'
+    text: 'Revenue (Billions of US$)'
   },
   subtitle: {
     text: 'Source: https://databank.worldbank.org'
@@ -27,7 +27,7 @@ $( '#all_rev' ).highcharts({
     min: 0,
     //max: 15,
     title: {
-      text: '(% of GDP)'
+      text: '(Billions of US$)'
     }
   },
   
@@ -43,8 +43,8 @@ $( '#all_rev' ).highcharts({
     colors:colors,
     series: [{
         type: 'column',
-        name: 'Revenue (% of GDP)',
-        data: [21.35900542, 28.92703399, 17.44214952, 28.38634709, 18.82326952] 
+        name: 'Revenue (Billions of US$)',
+        data: [89.654246400, 944.500597670, 533.247000000, 8.605985943, 7069.903594100] 
     }]
   });
 

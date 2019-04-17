@@ -3,7 +3,7 @@ $( '#ARG_bar' ).highcharts({
     tooltip: {
     headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
     pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
-      '<td style="padding:0"><b>{point.y:.1f} (% of GDP)</b></td></tr>',
+      '<td style="padding:0"><b>{point.y:.1f} (% of Tax revenue)</b></td></tr>',
     footerFormat: '</table>',
     shared: true,
     useHTML: true
@@ -27,7 +27,7 @@ $( '#ARG_bar' ).highcharts({
     min: 0,
     //max: 15,
     title: {
-      text: '(% of GDP)'
+      text: '(% of Tax revenue)'
     }
   },
   
@@ -43,8 +43,8 @@ $( '#ARG_bar' ).highcharts({
     colors:colors,
     series: [{
         type: 'column',
-        name: '% of GDP',
-        data: [5.848392859, 2.657785766, 1.526959772, 0.858320382, 2.122366973] 
+        name: '% of Tax revenue',
+        data: [44.9, 20.4, 11.7, 6.6, 16.3] 
     }]
   });
 

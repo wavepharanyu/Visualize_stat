@@ -13,18 +13,18 @@ Highcharts.chart('JAM_rev', {
   },
 
   legend: {
-    labelFormat: '{name} <span style="opacity: 0.6">{y} (% of GDP)</span>'
+    labelFormat: '{name} <span style="opacity: 0.6">{y} % of Revenue)</span>'
   },
 
   series: [{
     name: '',
     keys: ['name', 'y', 'color', 'label'],
     data: [
-      ['Tax revenue', 27, '#c39bd3', 'Tax revenue'],
+      ['Tax revenue', 74, '#c39bd3', 'Tax revenue'],
       ['Social contributions', 0, '#f1948a', 'Social contributions'],
       ['Grants and other revenue', 0, '#52be80', ' Grants and other revenue'],
       ['Other taxes', 0, '#76d7c4', 'Other taxes'],
-      ['Customs and other import duties', 10, '#d1f2eb', 'Customs and other import duties'],
+      ['Customs and other import duties', 26, '#d1f2eb', 'Customs and other import duties'],
     ],
     dataLabels: { 
       enabled: true,
